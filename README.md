@@ -4,14 +4,14 @@
 
 
 ## Description
-
-
-
+In this burger logger when you submit a burger name it will appear
+on the right side of the screen, along with a devour button by it.
+When that 'Devour' button is selected, the burger name will then move to the right side of the screen.  
 
 
 ## Installation
 You will first need to npm init -y then install the following packages:
-MySQL, Node, Express, handlebard, and ORM.
+MySQL, Node, Express, handlebars, and ORM.
 
 
 ## Usage
