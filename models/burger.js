@@ -11,19 +11,16 @@ const burger = {
     },
 
     all: function(cb) {
-        orm.all ("burgers", function(res) {
+        orm.all("burgers", function(res) {
             cb(res)
         })
-    } 
-    //update:
-}
-
-
-
-
-
-
-
-
+    },
+    
+    // update: function() {
+    //     orm.update()
+    //     })
+    // }
+    
+};
 
 module.exports = burger;
